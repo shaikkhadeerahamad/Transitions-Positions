@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.back{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://img.magnific.com/free-photo/abstract-soft-pastel-colorful-background_306501-871.jpg?semt=ais_hybrid&w=740&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+    
+}
+.first {
+    height: 200px;
+    width: 200px;
+
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW2Emkb6Wo2qdBGYfrUyEEiti410VDKcaFlgPWAQmwJQ&s=10");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transform: rotate(45deg);
+    animation-name: fir;
+    animation-duration: 2s;
+}
+.second {
+    height: 200px;
+    width: 200px;
+
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNVC6LC5U01uGa68lnyNrxR_e407193OqKa8ulPgAMDw&s=10");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top:0px;
+    left: 300px;
+    transform: rotate(45deg);
+    animation-name: sec;
+    animation-duration: 2s;
+}
+.third{
+     height: 200px;
+    width: 200px;
+
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBhcPH7Qpa7OB596Xgobm79j1ZQuEyR4nYHRG8ofQrlg&s=10");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top:0px;
+    right: 0px;
+    transform: rotate(45deg);
+    animation-name: tir;
+    animation-duration: 2s;
+}
+.four{
+     height: 200px;
+    width: 200px;
+
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnjry-GMORQN_GF-cSh77BOlAp4VFdUUiFZnVscGEtMA&s=10");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left:600px;
+    right: 0px;
+    bottom: 600px;
+    transform: rotate(45deg);
+    animation-name: fou;
+    animation-duration: 2s;
+}
+.five{
+    height: 200px;
+    width: 200px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDEbHxVMfocPPRWj935NxDJqEywaUzzMy3K_9eWJfnDA&s=10");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: -400px;
+    left: 600px;
+    right: 0px;
+    bottom: 100px;
+    transform: rotate(45deg);
+    animation-name: fiv;
+    animation-duration: 2s;
+    
+}
+/* .first:hover{
+    transition-duration: 2s;
+     transform: rotate(-45deg);
+} */
+
+.second:hover{
+    transition-duration: 2s;
+     transform: scale(2);
+}
+@keyframes fir {
+    from{
+        transform: translateX(-400px) ;
+    }
+    to{
+      transform: translateX(50px) rotate(45deg);  
+    }
+    
+}
+@keyframes sec {
+    from{
+        transform: rotate(360deg) ;
+    }
+    to{ 
+      transform: rotate(45deg);  
+    }
+    
+}
+
+@keyframes tir {
+    from{
+        transform: translateY(400px) ;
+    }
+    to{ 
+      transform: rotate(45deg);  
+    }
+    
+}
+
+@keyframes fou {
+    from{
+        transform: translateY(-400px) ;
+    }
+    to{
+      transform: translateX(50px) rotate(45deg);  
+    }
+    
+}
+@keyframes fiv {
+    from{
+        transform: translateY(400px) ;
+    }
+    to{
+      transform: translateX(50px) rotate(45deg);  
+    }
+    
+}
